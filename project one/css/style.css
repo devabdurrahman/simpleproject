@@ -1,0 +1,277 @@
+/* Reste code */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 14px;
+	line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+	list-style: none;
+}
+.area{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+img{
+	width: 100%;
+}
+.fix:before, .fix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/* header css */
+.header {
+    background-color: #dddddd;
+    padding: 20px;
+}
+.logo {
+    float: left;
+    width: 150px;
+    margin-right: 30px;
+}
+.logo a{}
+.logo a img{}
+.menu {
+    float: right;
+    width: 680px;
+}
+.menu ul {
+    text-align: right;
+    margin-top: 14px
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+	color: #333;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	font-size: 20px;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	background-color: tomato;
+	color: white;
+}
+
+/* banner css */
+.banner{
+
+}
+.banner img{}
+
+/* services css */
+.title h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 40px 0;
+}
+.single_service {
+    background-color: teal;
+    float: left;
+    width: 313px;
+    margin-right: 30px;
+    padding: 20px;
+    color: white;
+}
+.single_service:last-child, .service_page .single_service:nth-child(4){
+	margin-right: 0;
+}
+.service_page .single_service {
+    width: 227px;
+    margin-bottom: 30px;
+}
+.single_service h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+/* button css */
+a.button {
+    background-color: tomato;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: .3s;
+    font-style: italic;
+}
+a.button:hover{
+	background-color: #ff7720;
+	color: white;
+}
+
+/* about css */
+.about{
+    padding: 60px 0;
+}
+.about_left{
+    float: left;
+    width: 700px;
+    margin-right: 30px;
+}
+.about_left h4, .about_menu h4{
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.about_left p{
+    margin-bottom: 10px;
+}
+.about_menu{
+    float: right;
+    width: 270px;
+}
+.about_menu ul li{
+    background-image: url('../images/arrow.png');
+    background-repeat: no-repeat;
+    background-position: -7px 1px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.about_menu ul li:last-child{
+    border-bottom: 0;
+}
+.about_menu ul li a{
+    color: #333;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+}
+.about_menu ul li a:hover{
+    color: tomato;
+}
+
+/*  footer css  */
+.footer {
+    text-align: center;
+    background-color: teal;
+    padding: 20px;
+}
+.footer p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* page banner css */
+.page_banner{
+    background-image: url('../images/page-bannar.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 110px 0;
+    position: relative;
+    z-index: 2;
+}
+.page_banner:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    opacity: .70;
+    z-index: -1;
+}
+.page_banner h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+/* gallery css */
+.gallerys{}
+.gallery{}
+.single_gallery{
+    float: left;
+    width: 227px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.single_gallery:nth-child(4), .single_gallery:nth-child(8){
+    margin-right: 0;
+}
+.single_gallery iframe{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+/* contact css */
+.contact{
+    padding: 40px 0;
+}
+.contact_form{
+    float: left;
+    margin-right: 30px;
+    width: 670px;
+}
+.contact_form h4, .contact_address h4 {
+    text-transform: capitalize;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.contact_form form{}
+.contact_form input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact_form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.contact_form input[type="submit"] {
+    background: tomato;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.contact_form input[type="submit"]:hover{
+    background-color: #ff7720;
+}
+.contact_address{
+    float: right;
+    width: 300px;
+}
+.contact_address ul{}
+.contact_address ul li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.map {
+    margin-bottom: 30px;
+}
+.map iframe {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    height: 300px;
+}
