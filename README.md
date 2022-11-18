@@ -1,1 +1,1 @@
-# simpleproject.gitub.io
+# simpleproject
